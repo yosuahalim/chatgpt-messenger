@@ -25,7 +25,7 @@ const Chat = ({ chatId }: Props) => {
           chatId,
           "messages"
         ),
-        orderBy("createdAt", "desc")
+        orderBy("createdAt", "asc")
       )
   );
   return (
